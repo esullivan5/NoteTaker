@@ -1,5 +1,5 @@
 //dependencies
-const Store = require("../public/assets/js/Store.js");
+const Store = require("js/Store.js");
 //express handling routes
 const router = require("express").Router();
 
