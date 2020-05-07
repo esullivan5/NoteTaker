@@ -1,9 +1,9 @@
 //dependencies
-const Store = require("js/Store.js");
+const Store = require("../js/Store.js");
 //express handling routes
 const router = require("express").Router();
 
-let data = require(`${process.cwd()}/db/db.json`);
+//let data = require(`${process.cwd()}../db/db.json`);
 
   //routing
   // router.get("/notes", async function(req, res) {
@@ -20,7 +20,7 @@ let data = require(`${process.cwd()}/db/db.json`);
 
   router.get("/notes", function(req, res) {
     //return all saved notes as JSON
-    // console.log(data);
+    console.log(data);
     //TODO set up store
     //call store
     // const savedNotes = new Store().listNote();
