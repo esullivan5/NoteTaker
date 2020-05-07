@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,14 @@
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "require": "^2.4.20"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esullivan5/NoteTaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esullivan5/NoteTaker/issues"
+  },
+  "homepage": "https://github.com/esullivan5/NoteTaker#readme"
 }
